@@ -5,10 +5,14 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="style/style.css">
+<script src="script/homepage.js" ></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<link rel="stylesheet" href="style/style.css" />
+
 
 
 
@@ -27,8 +31,8 @@
 <div id="carouselExampleIndicators" class="primo carousel slide " data-ride="carousel">
 
 <div class="menu-logo">
-<a href="#" onclick="openNav()"><img src="{{ asset('img/menu-icon.jpeg') }}" alt=""></a>
-<img  src="{{ asset('img/logo_sito.png') }}" alt="">
+<a href="#" onclick="openNav()"><img src="img/menu-icon.jpeg" alt=""></a>
+<img  src="img/logo_sito.png" alt="">
 </div>
 
   <ol class="carousel-indicators">
@@ -39,21 +43,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
 
-      <img class="d-block w-100" src="{{ asset('img/carosello1.jpeg') }}" alt="First slide">
+      <img class="d-block w-100" src="img/carosello1.jpeg" alt="First slide">
       <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInDown">
     <h5 >Realizziamo i tuoi desideri</h5>
     <p  >Desy Homedecor</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('img/1.jpg') }}" alt="Second slide">
+      <img class="d-block w-100" src="img/1.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
     <h5 >CIAO A TUTTI</h5>
     <p >Desy Homedecor</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('img/1.jpg') }}" alt="Third slide">
+      <img class="d-block w-100" src="img/1.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
     <h5>CIAO A TUTTI</h5>
     <p>Desy Homedecor</p>
@@ -63,7 +67,7 @@
 
 
   <div id="tornasu">
-  <img src="{{ asset('img/icon-giu.png') }}" class="tornasu" width="70px" height="60px" onClick="window.scrollTo(0, 750);">
+  <img src="img/icon-giu.png" class="tornasu" width="70px" height="60px" onClick="window.scrollTo(0, 750);">
   </div>
 
 
@@ -129,10 +133,12 @@
 
 
 
-<script src="{{ asset('js/script.js') }}" ></script>
+
 
 
 
 
 </body>
+
+
 </html>
