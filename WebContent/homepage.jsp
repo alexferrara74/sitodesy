@@ -26,7 +26,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
 	<a href="#">Chi Siamo</a>
-	<a href="#">Video</a>
+	<a href="">Video</a>
  	<a href="contatti.jsp">Contatti</a>
 
  	 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorie</a>
@@ -121,15 +121,7 @@
 <div class="foother">
 
 
-<!-- Default dropend button -->
-<div class="btn-group dropend">
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropright
-  </button>
-  <ul class="dropdown-menu">
-    <!-- Dropdown menu links -->
-  </ul>
-</div>
+
 
 </div>
 

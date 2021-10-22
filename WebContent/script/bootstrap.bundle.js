@@ -1563,7 +1563,6 @@
       if (!target || !target.classList.contains(CLASS_NAME_CAROUSEL)) {
         return;
       }
-
       const config = { ...Manipulator.getDataAttributes(target),
         ...Manipulator.getDataAttributes(this)
       };
