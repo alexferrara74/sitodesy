@@ -7,18 +7,13 @@
   height:720px;
 }
 .carousel-item img{
-
- -webkit-filter: brightness(80%);
- -webkit-filter: contrast(60%);
-
+width:1080px;
+height:100%;
 }
 
 
-#tornasu{
-width:10%; position: absolute; top:85%; left:85%;
-}
 
-.menu-logo{float:right; background-color: #707070; position:absolute; top: 0px; right: 0;
+.menu-logo{float:right; background-color: #8F6A2A; position:absolute; top: 0px; right: 0;
   width:100%;
   height: 70px;
   z-index: 5;
@@ -26,14 +21,16 @@ width:10%; position: absolute; top:85%; left:85%;
 }
 
 .menu-logo img{width:90px ; height:90px ;margin-top: 10px; margin-left: 10px; padding:0;}
-.menu-logo a img{float:right; width:70px ; height:70px ; margin-top: 2px; margin-right: 10px;padding:0;}
+.menu-logo a img{float:right; width:50px ; height:50px ; margin-top: 8px; margin-right: 20px;padding:0;}
 
 
 
 
-.carousel-caption{ width: 70%; padding:0; margin-left: 0;position: absolute;top:320px; bottom: 250px;}
-.carousel-caption h5{font-family: verdana, arial, sans-serif; font-size: 75px;}
-.carousel-caption p{font-family: verdana, arial, sans-serif; font-size: 45px;}
+.carousel-caption{ width: 70%; height:220px; padding:0; margin-left: 0;position: absolute; top:70%; }
+.carousel-caption h5{font-family: verdana, arial, sans-serif; font-size: 75px; background: rgba(green, 0.3);}
+.carousel-caption a{text-decoration: none; color: white;}
+.carousel-caption p{font-family: verdana, arial, sans-serif; width:40%; font-size: 35px;margin-left: 30%;background: rgba(255, 255, 255, 0.3);}
+.carousel-caption p:hover{border:0px solid white;background: rgba(130, 130, 130, 0.6);}
 .carousel-indicators li{width: 8%;}
 
 
@@ -77,14 +74,15 @@ width:10%; position: absolute; top:85%; left:85%;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-right .5s;
-  padding: 20px;
-}
-
-.cards{margin-top: 400px;}
 
 
+.dropdown-menu{background-color:#111 ; border:1px solid grey;}
+
+
+
+.cards{margin-top: 100px; margin-bottom: 120px;}
+
+.foother{width:100%; height:300px; border: 3px solid red;}
 
 
 
