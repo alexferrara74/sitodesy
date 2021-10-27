@@ -98,7 +98,7 @@ public class prodotto implements Serializable {
 	}
 
 
-	public void setCtegoria(String categoria) {
+	public void setCategoria(String categoria) {
 		this.nomecategoria = categoria;
 	}
 	

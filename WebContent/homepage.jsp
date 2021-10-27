@@ -32,7 +32,7 @@
  	 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorie</a>
  	
  	 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a  href="#">Gioielleria</a></li>
+    <li><a  href="sceltacategoria?categoria=gioielleria">Gioielleria</a></li>
     <li><a  href="#">Decorazioni</a></li>
     <li><a href="#">Lampade-led</a></li>
     <li><a href="#">Lampade-Spotify</a></li>
