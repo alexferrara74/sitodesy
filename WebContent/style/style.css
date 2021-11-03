@@ -13,15 +13,15 @@ height:100%;
 
 
 
-.menu-logo{float:right; background-color: #8F6A2A; position:absolute; top: 0px; right: 0;
+.menu-logo{float:right; background-color:lightgrey; position:absolute; top: 0px; right: 0;
   width:100%;
   height: 70px;
   z-index: 5;
   border-bottom: 1px ridge white;
 }
 
-.menu-logo img{width:90px ; height:90px ;margin-top: 10px; margin-left: 10px; padding:0;}
-.menu-logo a img{float:right; width:50px ; height:50px ; margin-top: 8px; margin-right: 20px;padding:0;}
+.menu-logo img{width:110px ; height:110px ;margin-top: 10px; margin-left: 20px; padding:0;}
+.menu-logo a img{float:right; width:40px ; height:40px ; margin-top: 14px; margin-right: 20px;padding:0;}
 
 
 
