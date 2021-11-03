@@ -1,27 +1,26 @@
-.carousel{ width: 100%;margin:0; padding: 0;}
-
-.carousel-item{
-
- margin:0%;
-  width:100%;
-  height:720px;
-}
-.carousel-item img{
-width:1080px;
-height:100%;
+.container{
+	
+	width: 80%;
+	height:650px;
+	margin-left: 10%;
+	margin-top: 80px;
+	
 }
 
-
-
-.menu-logo{float:right; background-color: #8F6A2A; position:absolute; top: 0px; right: 0;
+.container img{
+	width: 100%;
+	height: 100%;
+}
+.menu-logo{float:right; position:absolute; top: 0px; right: 0;
   width:100%;
   height: 70px;
   z-index: 5;
-  border-bottom: 1px ridge white;
+  border-bottom: 1px ridge black;
+  background-color: lightgrey;
 }
 
-.menu-logo img{width:90px ; height:90px ;margin-top: 10px; margin-left: 10px; padding:0;}
-.menu-logo a img{float:right; width:50px ; height:50px ; margin-top: 8px; margin-right: 20px;padding:0;}
+.menu-logo img{width:110px ; height:110px ;margin-top: 10px; margin-left: 20px; padding:0;}
+.menu-logo a img{float:right; width:40px ; height:40px ; margin-top: 14px; margin-right: 20px;padding:0;}
 
 
 
@@ -78,17 +77,16 @@ height:100%;
 
 .dropdown-menu{background-color:#111 ; border:1px solid grey;}
 
-
-
-.cards{margin-top: 100px; margin-bottom: 120px;}
+.row{margin-top:30px;}
+.col-sm{padding:0;}
+.cards{ margin-top: 100px; margin-bottom: 120px;}
+.card{width:100%; }
 
 .foother{width:100%; height:300px; border: 3px solid red;}
 
 
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  }
+@media(max-width:768px){ 
+  .container{width: 100%; height:300px; margin:0px; margin-top:80px;}
+  .card{width: 100%; float:left; }
+ 
+}

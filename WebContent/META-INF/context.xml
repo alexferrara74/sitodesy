@@ -5,7 +5,14 @@
         auth="Container"
         driverClassName="com.mysql.cj.jdbc.Driver"
         type="javax.sql.DataSource"
+<<<<<<< HEAD
         username="desy_user"
         password="desy_user"
         url="jdbc:mysql://localhost:3306/?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;autoReconnect=true&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/> 
 </Context>
+=======
+        username="root"
+        password="Cavese1919"
+        url="jdbc:mysql://localhost:3306/desyhomedecor?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;autoReconnect=true&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/> 
+</Context>
+>>>>>>> branch 'master' of https://github.com/alexferrara74/sitodesy.git
