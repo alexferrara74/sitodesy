@@ -54,26 +54,26 @@
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCapti3ons" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/decorazione1.jpg"  alt="First slide">
+      <img class="d-block w-100" src="img/container1.jpg"  alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Realizziamo desideri</h5>
        <a href="#" > <p onClick="window.scrollTo(0, 750)">I nostri prodotti</p></a>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/cornice.jpg" alt="First slide">
+      <img class="d-block w-100" src="img/container2.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
          <h5>Realizziamo desideri</h5>
        <a href="#" > <p onClick="window.scrollTo(0, 750)">I nostri prodotti</p></a>
       </div>
     </div>
     <div class="carousel-item">
-    <img class="d-block w-100" src="img/cornice.jpg" alt="First slide">
+    <img class="d-block w-100" src="img/container3.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
          <h5>Realizziamo desideri</h5>
        <a href="#" > <p onClick="window.scrollTo(0, 750)">I nostri prodotti</p></a>
@@ -91,7 +91,7 @@
 </div>
 
 
-
+ 
 
 </div>
 
