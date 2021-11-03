@@ -1,3 +1,10 @@
 @charset "ISO-8859-1";
 
-.form-contatti{width: 200px; height: 300px; margin-top:300px;}
+
+.menu-logo{float:right; background-color: #8F6A2A; position:absolute; top: 0px; right: 0;
+  width:100%;
+  height: 70px;
+  z-index: 5;
+  border-bottom: 1px ridge white;
+}
+.form-contatti{width: 200px; height: 300px; margin-top:0px;}

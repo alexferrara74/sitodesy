@@ -1,4 +1,4 @@
-package model;
+package servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class sceltacategoria
+ * Servlet implementation class categoria
  */
-@WebServlet("/sceltacategoria")
-public class sceltacategoria extends HttpServlet {
+@WebServlet("/categoria")
+public class categoria extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public sceltacategoria() {
+    public categoria() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -26,8 +26,12 @@ public class sceltacategoria extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		String categoria=request.getParameter("sceltacategoria");
 		
 		
+		
+		System.out.println(categoria);
 	}
 
 	/**
